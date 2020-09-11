@@ -23,6 +23,7 @@ function Home() {
         />
          <div className="home__row">
        <Product 
+        id="123123"
          title="DualShock 4 Wireless Controller for PlayStation 4 - Magma Red"
          price={64.99}
          image={ControllerImage}
@@ -30,6 +31,7 @@ function Home() {
 
        />
         <Product 
+        id="23123"
          title="PlayStation 4 Slim 1TB Console"
          price={349.95}
          image={Ps4Image}
@@ -40,6 +42,7 @@ function Home() {
       </div>
       <div className="home__row">
       <Product 
+         id="68785"
          title="Star Trek: The Original Series - Star Fleet Flight Bag"
          price={88.95}
          image={BagImage}
@@ -47,18 +50,21 @@ function Home() {
 
        />
        <Product 
+        id="213768"
          title="Canon PowerShot SX530 Digital Camera w/ 50X Optical Zoom - Wi-Fi & NFC Enabled (Black)"
          price={149.99}
          image={CameraImage}
          rating={3}
 
        /><Product 
+        id="964268"
        title="Acer Aspire 5 A515-55-378V, 15.6 Full HD Display"
        price={449.95}
        image={LaptopImage}
        rating={3}
 
      /><Product 
+      id="6823499"
      title="Garmin Forerunner 235, GPS Running Watch, Black/Gray"
      price={159.95}
      image={WatchImage}
@@ -68,6 +74,7 @@ function Home() {
       </div>
       <div className="home__row">
       <Product 
+      id="5542985"
          title="Oculus Quest All-in-one VR Gaming Headset – 64GB"
          price={697.95}
          image={VRImage}

@@ -3,16 +3,17 @@ import "./Product.css";
 import ControllerImage from './Images/controller.jpg'
 import { useStateValue } from "./StateProvider";
 
-function Product({title, image, price, rating}) {
+function Product({id, title, image, price, rating}) {
 
     const [{basket}, dispatch] = useStateValue();
 
-    console.log('basket', basket);
+   
     const addToBasket = () => {
       // gonna dispatch item into data layer
         dispatch({
           type: "ADD_TO_BASKET",
           item: {
+            id: id,
             title: title,
             image: image,
             price: price,
